@@ -9,6 +9,11 @@
     -o-animation: fadein 2s; /* Opera */
 }
 
+.resize {
+  max-width:50%;
+  max-height:50%;
+}
+
 .footer {
     margin-top: 35%
 }

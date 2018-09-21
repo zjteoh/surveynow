@@ -14,9 +14,9 @@ class Landing extends Component {
 					<p className="landing-text-style"><h5>Send surveys easily by using SendGrid API</h5></p>
 
 					<div className="footer">
-						<p className="landing-text-style">Powered by</p>
+						<p className="landing-text-style" style={{'margin': '0'}}>Powered by</p>
 
-						<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpvWdMwn75fPMVZRPxZxJgC8GAfQTeslyxTL4nl-sXfEBQtslS"/>
+						<img className="resize" src="https://www.codeimmersives.com/wp-content/uploads/2018/06/MERN-Logo-4-pack.jpg"/>
 					</div>
 				</div>
 			</div> 
