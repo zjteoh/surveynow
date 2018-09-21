@@ -20,7 +20,7 @@ class SurveyList extends Component {
 	renderSurveys() {
 		if(this.props.auth) {
 			if(!this.props.survey) {
-				return <div className="landing-title"><h3 className="landing-text-style">You need to be logged in</h3></div>;
+				return <div className="landing-title"><h3 className="landing-text-style">You have no surveys</h3></div>;
 			}
 
 			return this.props.surveys.reverse().map(survey => {
