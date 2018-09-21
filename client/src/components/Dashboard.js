@@ -8,11 +8,11 @@ class Dashboard extends Component {
 			return (
 				<div>
 					<div className="fixed-action-btn">
-						<Link to="/surveys/new" className="btn-floating btn-large waves-effect waves-light green" style={{'margin': '5px'}}>
+						<Link to="/surveys/new" className="btn-floating btn-medium waves-effect waves-light green" style={{'margin': '5px'}}>
 							<i className="large material-icons">add</i>
 						</Link>
 
-						<Link to="/surveys" className="btn-floating btn-large waves-effect waves-light red" style={{'margin': '5px'}}>
+						<Link to="/surveys" className="btn-floating btn-medium waves-effect waves-light red" style={{'margin': '5px'}}>
 							<i className="large material-icons">menu</i>
 						</Link>
 					</div>
