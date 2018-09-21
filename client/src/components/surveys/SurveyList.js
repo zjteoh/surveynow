@@ -19,7 +19,7 @@ class SurveyList extends Component {
 
 	renderSurveys() {
 		if(this.props.auth) {
-			if(!this.props.survey) {
+			if(!this.props.surveys) {
 				return <div className="landing-title fade-animation"><h3 className="landing-text-style">You have no surveys</h3></div>;
 			}
 
