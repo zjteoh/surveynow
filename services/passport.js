@@ -21,7 +21,7 @@ passport.deserializeUser((id, done) => {
 		});
 });
 
-// on done(), will call passport login()
+// on done(), will call passport login() which calls serializeUser()
 passport.use(
 	new GoogleStrategy(
 		{
@@ -36,9 +36,9 @@ passport.use(
 					if(!existingUser) {
 						new User({googleID: profile.id})
 						.save()
-							.then(user => {
-								done(null, user);
-							});
+						.then(user => {
+							done(null, user);
+						});
 
 					}
 					else {
