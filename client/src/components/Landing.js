@@ -6,7 +6,7 @@ class Landing extends Component {
 	render() {
 		return (
 			<div>
-				<div className="landing-title">
+				<div className="landing-title fade-animation">
 					<h1>
 						<span className="landing-text-style">Hello there</span> 
 					</h1>

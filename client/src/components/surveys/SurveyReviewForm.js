@@ -33,7 +33,7 @@ function renderFields(values) {
 const SurveyReviewForm = (props) => {
 	console.log(props)
 	return (
-		<div>
+		<div className="fade-animation">
 			<h3 style={{'fontFamily': 'Helevetica','color': 'grey'}}>Review your survey</h3>
 			{renderFields(props.formValues)}
 			<button onClick={props.onCancelReview} className="light-red btn-flat left white-text"> 

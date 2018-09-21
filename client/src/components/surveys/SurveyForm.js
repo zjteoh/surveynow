@@ -41,7 +41,7 @@ class SurveyForm extends Component {
 	//this.handleSubmit is a prop provided by reduxForm automatically
 	render() {
 		return (
-			<div>
+			<div className="fade-animation">
 				<h3 style={{'fontFamily': 'Helevetica', 'color': 'grey'}}>Create new survey</h3>
 
 				<form onSubmit={this.props.handleSubmit(this.props.onSurveySubmit)}>

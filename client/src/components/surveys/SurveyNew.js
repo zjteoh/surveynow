@@ -21,7 +21,7 @@ class SurveyNew extends Component {
 			}
 		}
 		else {
-			return <div className="landing-title"><h3 className="landing-text-style">You need to be logged in</h3></div>;
+			return <div className="landing-title fade-animation"><h3 className="landing-text-style">You need to be logged in</h3></div>;
 		}
 	}
 
