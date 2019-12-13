@@ -13,7 +13,7 @@
   "dependencies": {
     "axios": "^0.18.0",
     "materialize-css": "^0.100.2",
-    "npm": "^6.2.0",
+    "npm": "^6.13.4",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-materialize": "^2.4.5",
